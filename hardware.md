@@ -2,6 +2,13 @@
 
 This page is a record of the parts search and the hardware implementation details.  A bill of materials (BOM) is included at the end.
 
+## Rough plan
+
+Buy the big parts.
+Build and test sub-systems.
+Build case.
+Assemble and test.
+
 ## Parts search
 
 * Higher resolution TFT touchscreen display.
@@ -18,15 +25,18 @@ This page is a record of the parts search and the hardware implementation detail
 
 This code looks useful. <https://gist.github.com/actuino/7801a03342665dc988b0f9bb7c257348>
 
-### ESP32 LCD screens
-
-* <https://www.makerfabs.com/esp32-3.5-inch-tft-touch-capacitive-with-camera.html>
-* <https://www.aliexpress.com/item/1005004632953455.html>
-
-Decided to go with the AliExpress version of the board as smaller and cheaper.
-
 ## Bill of materials
 
-Total cost of parts: £19.01
+| Quantity | Item | Price each | Total |
+|---|---|---|---|
+| 1 | 5" DSI Capacitive Touch Display for Raspberry Pi (800×480) | £43.20 | £43.20 |
+| 1 | Raspberry Pi 3 Model A+ | £26.00 | £26.00 |
 
-* 1 x [ESP32 Arduino LVGL WIFI&Bluetooth Development Board 3.5" 320*480 Smart Display Screen 3.5inch LCD TFT Module capacitive touch](https://www.aliexpress.com/item/1005004632953455.html) - ￡19.01 inc. shipping and tax.
+### TO BUY
+
+* Stuff for powering the remote.  LIPO battery adaptor.
+* Buttons for fun.
+
+## Building the case
+
+The case is
